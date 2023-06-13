@@ -1,0 +1,97 @@
+header{
+	background-color: #894e3f;
+	padding: 20px;
+	text-align: center;
+
+}
+h1{
+	color: #333;
+	text-align: center;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+nav ul li{
+	
+	margin-right: 10px;
+}
+nav ul li a{
+	color: #333;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition:background-color 0.3s ease;
+}
+
+nav ul li a:hover{
+	text-decoration: blink ;
+	background-color: yellow;
+
+}
+ body {
+      font-family: Gabriola, Gabriola;
+      margin: 0;
+      padding: 0;
+      background-color: #f0d7a7;
+    }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+
+  }
+
+  .buttons {
+  margin-top: 30px;
+}
+
+.buttons a.button {
+	display: inline-block;
+	padding: 10px;
+	background-color: #894e3f;
+	color: black;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	border-radius: 5px;
+	width: 150px;
+	/*css showing the use of class*/
+}
+.buttons a.button:hover{
+	background-color: ocean;
+}
+
+#container {
+  text-align: center;
+}
+/*css showing the use of ID*/
+.about-section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.location-section {
+  padding: 30px;
+  text-align: center;
+}
+  
+

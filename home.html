@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>BAIT BAKERY</title>
+  <style>
+    
+    
+    header {
+      background-color: #grey;
+      padding: 20px;
+      color: #yellow;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+    
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    .offer {
+            background-color: #894e3f;
+            color: #fff;
+            font-size: 24px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        
+        .footer {
+            background-color:#894e3f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .footer p {
+            margin: 0;
+        }
+         .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            text-align: center;
+            background-color: #f0d7a7;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+  </style>
+  <!-- internal css implementation -->
+</head>
+<body>
+  <header>
+    
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contact us.html">CONTACT US</a></li>
+        <li><a href="about us.html">ABOUT US</a></li>
+      </ul>
+      <!-- implementation of list -->
+    </nav>
+  </header> 
+  <div class="container">
+    <div class="gallery">
+        <img class="product-image" src="image/cake1.jpeg" alt="Product Image">
+    </div>
+        <h1>Amazing Bakery</h1>
+        <p>Happiness is knowing there is a cake in the oven, where there is a cake there is a hope.</p>
+        <p>Don't miss our special offer welcome!</p>
+        <div class="offer"><marquee>50% OFF</marquee></div>
+    
+    </div>
+  
+  <div class="footer">
+        <p>&copy; 2023  Amazing Bakery Company. All rights reserved.</p>
+    </div>
+</body>
+</html>
