@@ -29,7 +29,7 @@ nav ul li a{
 
 nav ul li a:hover{
 	text-decoration: blink ;
-	background-color: yellow;
+	background-color: darkblue;
 
 }
  body {
@@ -76,7 +76,7 @@ tr:hover {
 	/*css showing the use of class*/
 }
 .buttons a.button:hover{
-	background-color: ocean;
+	background-color: blue;
 }
 
 #container {
